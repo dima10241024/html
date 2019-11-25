@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Подписки</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--Оболочка страницы-->
+<div id="wrapperk">        
+        
+<!--Шапка сайта-->
+<header>
+    <div id="menu"> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <img class="marcer" src="главная.png" height="40" width="40"><a href="index.html">Главаня</a>
+        <img class="marcer" src="кабинет.png" height="40" width="40"><a href="kabinet.html">Личный кабинет</a>
+        <img class="marcer" src="%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3.png" height="40" width="40"><a href="katalog.html">Каталог</a>
+        <img class="marcer" src="%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD.png" height="40" width="40"><a href="obmen.html">Обмен</a>
+        <img class="marcer" src="%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B1.jfif" height="40" width="40"><a href="#kontakt">Контакты</a>
+    </div>
+</header>
+<br>
+
+
+
+<article>
+    <div class="my_page">
+		<div class="my_color">
+                <div class="row">
+				    <div>
+						<a href=""><img src="гвс.jpg"></a>
+						<div>Города воинской славы</div>
+					</div>
+					<div>
+						<a href=""><img src="гг.jpg"></a>
+						<div>Города-герои</div>
+					</div>
+					<div>
+						<a href=""><img src="министерства.jpg"></a>
+						<div>Министерства</div>
+					</div>
+					<div>
+						<a href=""><img src="чм.jpg"></a>
+						<div>Чемпионат мира по футболу FIFA 2018</div>
+					</div>
+					<div>
+						<a href=""><img src="события.jpg"></a>
+						<div>События, Юбилеи (10 руб., бм)</div>
+                    </div>	
+                </div>
+		</div>
+	</div>
+</article>
+
+</div>
+</body>
+</html>
