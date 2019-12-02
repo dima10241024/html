@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Города-герои</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--Оболочка страницы-->
+<div id="wrapperk">        
+        
+<!--Шапка сайта-->
+<header>
+    <div id="menu" align="center" > 
+        <br>
+        <img class="marcer" src="главная.png" height="40" width="40"><a href="index.html">Главаня</a>
+        <img class="marcer" src="кабинет.png" height="40" width="40"><a href="kabinet.html">Личный кабинет</a>
+        <img class="marcer" src="%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3.png" height="40" width="40"><a href="katalog.html">Каталог</a>
+        <img class="marcer" src="%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD.png" height="40" width="40"><a href="obmen.html">Обмен</a>
+        <img class="marcer" src="%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B1.jfif" height="40" width="40"><a href="#kontakt">Контакты</a>
+    </div>
+</header>
+<br>
+
+
+
+<article1>
+            <div class="row">
+                <div class="product">
+                    <div class="product-img">
+                    <a href="#"><img src="Елец.png" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                    <a href="#">Елец</a>
+                    </p>
+                    <p class="product-desc">2011г</p>
+                    <p class="product-price">Цена: 200 руб.</p>
+                    </div>
+                <div class="product">
+                    <div class="product-img">
+                    <a href="#"><img src="Дмитров.jpg" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                    <a href="#">Дмитров</a>
+                    </p>
+                    <p class="product-desc">2012г</p>
+                    <p class="product-price">Цена: 80 руб.</p>
+                    </div>
+                <div class="product">
+                    <div class="product-img">
+                    <a href="#"><img src="Козельск.jpg" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                    <a href="#">Козельск</a>
+                    </p>
+                    <p class="product-desc">2013г</p>
+                    <p class="product-price">Цена: 60 руб.</p>
+                    </div>
+                <div class="product">
+                    <div class="product-img">
+                    <a href="#"><img src="Ржев.jpg" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                    <a href="#">Ржев</a>
+                    </p>
+                    <p class="product-desc">2011г</p>
+                    <p class="product-price">Цена: 70 руб.</p>
+                    </div>
+                <div class="product">
+                    <div class="product-img">
+                    <a href="#"><img src="Архангельск.jpg" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                    <a href="#">Архангельск</a>
+                    </p>
+                    <p class="product-desc">2013г</p>
+                    <p class="product-price">Цена: 50 руб.</p>
+                    </div>
+                <div class="product">
+                    <div class="product-img">
+                    <a href="#"><img src="Белгород.jpg" alt=""></a>
+                    </div>
+                    <p class="product-title">
+                    <a href="#">Белгород</a>
+                    </p>
+                    <p class="product-desc">2011г</p>
+                    <p class="product-price">Цена: 60 руб.</p>
+                    </div>     
+                    
+            </div>          
+</article>
+
+<br>
+
+<form name="comment" action="comment.php" method="post">
+    <p>
+      <label>Ваше имя:</label>
+      <input type="text" name="name" />
+    </p>
+    <p>
+      <label>Ваш комментарий:</label>
+      <br />
+      <textarea name="text_comment" cols="30" rows="50"></textarea>
+    </p>
+    <p>
+      <input type="hidden" name="page_id" value="150" />
+      <input type="submit" value="Отправить комментарий" />
+    </p>
+  </form>
+
+  <br>
+
+<!--Контакты-->
+<div id="kont">&nbsp; <a name="kontakt"></a>
+	<p class="fon"><strong>Телефон:<br>
+	  8-916-871-96-93</strong> </p>
+	<p class="mail"><strong>E-mail<br>
+	  dmitry.tsoy2017@yandex.ru</strong></p>
+  </div>
+</div>
+</body>
+</html>
